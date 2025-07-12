@@ -6,9 +6,9 @@ A powershell script to chop a video into time fragments.
 
 `script.ps1 <input> <start1> <end1> [<start2> <end2> ...]`
 
-Where input is your video file and each pair start-end is in a format of HH:MM:SS.ms, milliseconds optional.
+Where `<input>` is your video file and each pair start-end is in a format of HH:MM:SS.ms, milliseconds optional.
 
-Creates fragments video files with names `<input>-chop%i.mp4`, where <input> is the input filename minus extension and `%i` is the number of the fragment.
+Creates fragments video files with names `<input>-chop%i.mp4`, where `<input>` is the input filename minus extension and `%i` is the number of the fragment.
 
 # Note
 
